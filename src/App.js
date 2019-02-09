@@ -4,7 +4,7 @@ import './App.css';
 
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-
+import TaggedGames from './components/favorites/TaggedGames'
 
 
 class App extends Component {
@@ -18,6 +18,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <TaggedGames />
         <Footer />
       </div>
     );
@@ -32,4 +33,6 @@ export default App;
 
 
 
-// API key : a9c2279ff21a4950efa962c92ff71cd093feb005
+//Key: 35519FF12F19250CB186F3EA7C79B45E
+
+//Domain Name: localhost:3002
